@@ -1,0 +1,40 @@
+.loan{
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    width: 20%;
+    padding: .75rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.formLoan{
+    margin-top: 1rem;
+    background-color: black;
+    border-radius: 8px;
+    width: 50%;
+    align-self: center;
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.orderForm{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.loanBtn,.applyLoanBtn{
+    margin-top: 1rem;
+    background-color: var(--first-color-light);
+    color: white;
+    width: 50%;
+    align-self: center;
+}
+
+.loanBtn:hover,.applyLoanBtn:hover{
+    color: orange;
+    transition: 1s;
+    box-shadow: 0 0 1rem var(--first-color-light);
+}

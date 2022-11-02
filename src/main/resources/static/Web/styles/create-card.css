@@ -1,0 +1,173 @@
+.formCard {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.createCardBtn{
+    margin-top: 1rem;
+    background-color: var(--first-color-light);
+    color: white;
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+}
+
+.createCardBtn:hover{
+    color: orange;
+    transition: 1s;
+    box-shadow: 0 0 1rem var(--first-color-light);
+}
+
+.card {
+    width: 320px;
+    height: 190px;
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;
+    perspective: 600px;
+    background-color: black;
+    border: none;
+}
+
+.card__part {
+    box-shadow: 1px 1px #aaa3a3;
+    top: 0;
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    display: inline-block;
+    width: 320px;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    -webkit-transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -moz-transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -ms-transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -o-transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+
+.card__front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px;
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+}
+
+.chip {
+    position: relative;
+    top: 0px;
+    left: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 36px;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom left, #ffecc7, #d0b978);
+    overflow: hidden;
+}
+
+.chip .chip-line {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #333;
+}
+
+.chip .chip-line:nth-child(1) {
+    top: 13px;
+}
+
+.chip .chip-line:nth-child(2) {
+    top: 20px;
+}
+
+.chip .chip-line:nth-child(3) {
+    top: 28px;
+}
+
+.chip .chip-line:nth-child(4) {
+    left: 25px;
+    width: 1px;
+    height: 50px;
+}
+
+.chip .chip-main {
+    width: 20px;
+    height: 25px;
+    border: 1px solid #333;
+    border-radius: 3px;
+    background-image: linear-gradient(to bottom left, #efdbab, #e1cb94);
+    z-index: 1;
+}
+
+.card__logo {
+    position: relative;
+    top: -6px;
+    left: 9px;
+    height: 47px;
+}
+
+.card_numer {
+    display: block;
+    width: 100%;
+    word-spacing: 4px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-top: 22px;
+    -webkit-text-stroke: black .75px
+}
+
+.card__space-75 {
+    width: 100%;
+    float: left;
+}
+
+.card__space-25 {
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: end;
+    gap: 1.5rem;
+}
+
+.card__label {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 1px;
+}
+
+.card__info {
+    text-align: center;
+    font-size: 16px;
+    line-height: 11px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.gold {
+    background-image: url("../assets/img/24783.jpg");
+}
+
+.titanium {
+    background-image: url("../assets/img/istockphoto-1272025240-612x612.jpg");
+}
+
+.silver {
+    background-image: url("../assets/img/pngtree-black-and-silver-background-for-web-image_738372.jpg");
+}

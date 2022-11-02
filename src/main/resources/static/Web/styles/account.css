@@ -1,0 +1,15 @@
+.tableTransaction{
+    box-shadow: 0 0 1rem var(--first-color-light);
+}
+
+.createTransferBtn{
+    background-color: var(--second-color);
+    color: white;
+    width: 160px;
+  }
+  
+  .createTransferBtn:hover{
+    color: orange;
+    transition: 1s;
+    box-shadow: 0 0 1rem var(--first-color-light);
+  }

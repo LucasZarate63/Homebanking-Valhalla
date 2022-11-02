@@ -1,0 +1,48 @@
+.card{
+    padding: .5rem 1rem !important;
+}
+
+.cardAccount {
+    background-color: var(--second-color);
+    box-shadow: 0 0 1rem var(--first-color-light);
+}
+
+.detailsAccount{
+    color: white;
+    text-decoration: none;
+}
+.detailsAccount:hover{
+    color: var(--first-color-light);
+}
+
+.buttonAdd{
+    border-radius: 50%;
+    background-color: var(--second-color);
+    fill: white;
+    height: 50px;
+    width: 50px;
+
+}
+
+.buttonAdd:hover{
+    fill:orange;
+    transition: 1s;
+}
+
+.addLoanBtn{
+    background-color: var(--second-color);
+    color: white;
+}
+
+.addLoanBtn:hover{
+    color: orange;
+    transition: 1s;
+    box-shadow: 0 0 1rem var(--first-color-light);
+}
+
+.clientLoan{
+    background-color: var(--second-color);
+    box-shadow: 0 0 1rem var(--first-color-light);
+    flex: none;
+}
+
